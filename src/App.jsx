@@ -1,7 +1,7 @@
 
 import './App.css'
 import Counter from './assets/Counter'
-import Team from './Team'
+// import Team from './Team'
 
 
 
@@ -18,8 +18,8 @@ function App() {
   return (
     <>
      
-      {/* <h1>React</h1> */}
-      <Team></Team>
+      <h1>React</h1>
+      {/* <Team></Team> */}
       <Counter></Counter>
       <button onClick={handeleClick}>click1</button>
       <button onClick={handle2}>Click2</button>
